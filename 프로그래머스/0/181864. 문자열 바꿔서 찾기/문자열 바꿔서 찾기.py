@@ -6,7 +6,6 @@ def solution(myString, pat):
             convertPat += "B"
         else :
             convertPat += "A"
-    print(convertPat)
     if convertPat in myString:
         answer = 1
     elif len(convertPat) == len(myString):
