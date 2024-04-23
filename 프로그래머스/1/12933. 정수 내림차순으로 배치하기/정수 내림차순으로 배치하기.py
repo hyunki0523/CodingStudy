@@ -1,6 +1,4 @@
 def solution(n):
-    answer = []
-    for i in str(n):
-        answer.append(int(i))
+    answer=list(str(n))
     answer.sort(reverse=True)
     return int(''.join(map(str, answer)))
